@@ -22,6 +22,9 @@
           <th>Sobrenome</th>
           <th>Sobrenome</th>
           <th>Idade</th>
+          <th>Cidade</th>
+          <th>Estado</th>
+          <th>País</th>
         </tr>
       </thead>
       <tbody>
@@ -32,6 +35,9 @@
           <td> <?php echo $aux["nome"]; ?> </td>
           <td> <?php echo $aux["sobrenome"];  ?> </td>
           <td> <?php echo $aux["idade"]; ?> </td>
+          <td> <?php echo $aux["cidade"]; ?> </td>
+          <td> <?php echo $aux["estado"]; ?> </td>
+          <td> <?php echo $aux["pais"]; ?> </td>
         </tr>
         <?php } ?>
 
